@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 
 
+
 export default class PersonInput extends React.Component {
     state = {
         name: '',
@@ -29,8 +30,6 @@ export default class PersonInput extends React.Component {
             console.log(res);
             
         })
-
-        
     };
 
  
