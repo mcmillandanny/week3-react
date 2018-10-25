@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import PropTypes from 'prop-types';
-import axios from 'axios';
 import './App.css';
+import PersonList from './Components/PersonList';
+import PersonInput from './Components/PersonInput';
 
-class getData extends Component {
-  state = {
-    picture: [],
-    titles: []
-  }
+
+class App extends Component {
   render() {
     return (
-     null    
-    )
+      <div className="App">
+      <h1>Dummy Data using JSON placeholder</h1>
+        <PersonInput />
+        <PersonList />
+      </div>
+    );
   }
 }
 
